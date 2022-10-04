@@ -1,0 +1,66 @@
+/* Write some CSS below */
+body {
+  font-family: Overpass;
+  color: #C6878F;
+  font-size: 14px;
+  text-align: justify;
+
+}
+
+h1, h2, h3 {
+  font-family: 'gemunu libre';
+}
+
+h1 {
+	color: ##46A76;
+	font-size: 150px;
+}
+
+h2 {
+	color: #253D5B;
+	font-size: 35px;
+}
+
+h3 {
+	color: #67697C;
+	font-weight:bolder;
+  text-decoration: none;
+  transition: .3s;
+  font-size: 20px;
+}
+
+a {
+  color: #253D5B;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: #CE2FAE;
+}
+
+.banner {
+	text-align: center;
+	background-size: cover;
+  background-position: center;
+  padding: 0px 0;
+	background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-green-plant-leaves-flower-beautiful-image_22106.jpg);
+}
+
+.second {
+	background-color: #DBD3C9;
+}
+
+.footer {text-align: center;}
+
+.soustitre {
+	text-align: center;
+	font-size: 25px;
+}
+
+.prems{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
